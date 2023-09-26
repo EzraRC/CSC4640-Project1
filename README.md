@@ -37,7 +37,9 @@ These items can be purchased through any reputable sellers, however, the links p
 
 The Adafruit AHT20 Sensor gets the readings from the environment and inputs the data into the Arduino Uno Rev3 which is powered by the 9V Battery. Afterwards, the Arduino outputs the data on the Adafruit Featherwing OLED screen for users to see the processed information. 
 
-*picture* 
+<p float="left">
+ <img src="https://github.com/EzraRC/CSC4640-Project1/blob/main/Images/Diagrams/Block%20Diagram.png" alt="Box 1" width="600"/>
+</p>
 
  
 
