@@ -51,19 +51,41 @@ WIP
 
 The language for the code used for this device was C++, as Arduino uses it. Below is a GitHub link where we have uploaded the source code for free use and manipulation. 
 
-https://github.com/EzraRC/CSC4640-Project1 
+https://github.com/EzraRC/CSC4640-Project1/blob/main/src/Project_1_Temperature_Scanner.ino
 
  
 
 ## 3D Model of Device 
 
-*screenshots*
+### Box
+<p float="left">
+ <img src="https://github.com/EzraRC/CSC4640-Project1/blob/main/Images/Screenshots/Box%201.jpg" alt="Box 1" width="500"/>
+ <img src="https://github.com/EzraRC/CSC4640-Project1/blob/main/Images/Screenshots/Box%202.jpg" alt="Box 1" width="448"/>
+</p>
 
+### Lid
+<p float="left">
+ <img src="https://github.com/EzraRC/CSC4640-Project1/blob/main/Images/Screenshots/Lid%201.jpg" alt="Lid 1" width="500"/>
+ <img src="https://github.com/EzraRC/CSC4640-Project1/blob/main/Images/Screenshots/Lid%202.jpg" alt="Lid 2" width="432"/>
+</p>
 
-## Pictures and YouTube Links 
+### Completed Box with Lid
+<p float="left">
+ <img src="https://github.com/EzraRC/CSC4640-Project1/blob/main/Images/Screenshots/Completed%202.jpg" alt="Completed Box 2" width="468"/>
+ <img src="https://github.com/EzraRC/CSC4640-Project1/blob/main/Images/Screenshots/Completed%203.jpg" alt="Completed Box 3" width="500"/>
+ <img src="https://github.com/EzraRC/CSC4640-Project1/blob/main/Images/Screenshots/Completed%201.jpg" alt="Completed Box 1" width="500"/>
+</p>
 
-*pictures*
- 
+## IRL Pictures
+
+### Without Lid
+<p float="left">
+ <img src="https://github.com/EzraRC/CSC4640-Project1/blob/main/Images/IRL-Pictures/Without%20Lid%201.jpeg" alt="IRL without Lid 1" width="500"/>
+ <img src="https://github.com/EzraRC/CSC4640-Project1/blob/main/Images/IRL-Pictures/Without%20Lid%202.jpeg" alt="IRL without Lid 2" width="500"/>
+</p>
+
+## IRL Videos
+*youtube links*
 
 ## Device Testing and Markup 
 
