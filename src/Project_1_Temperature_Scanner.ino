@@ -8,18 +8,13 @@
 //Adafruit_SSD1306 display = Adafruit_SSD1306(); //Now you can write to this screen using display.
 Adafruit_SH1107 display = Adafruit_SH1107(64, 128, &Wire);
 
-const int switchPin = 6;
-int switchState = 0;
-int prevSwitchState = 0;
-
 Adafruit_AHTX0 aht; //For temperature scanner
 
-#define LED      13
+void(* resetFunc) (void) = 0;
 
 void setup() {
   Serial.begin(115200);
-  Serial.println("Adafruit AHT10/AHT20 demo!");
-
+  
   //display.begin(SSD1306_SWITCHCAPVCC, 0x3C); // initialize with the I2C address 0x3C (for the 128x32)
   display.begin(0x3c, true);
   display.clearDisplay(); // Clear the display
@@ -31,17 +26,14 @@ void setup() {
   display.setTextSize(1); //Set our text size, size 1 correlates to 8pt font
   display.setTextColor(WHITE); //We're using a Monochrome OLED so color is irrelevant, pixels are binary.
 
-  pinMode(switchPin, INPUT);
-
   if (! aht.begin()) {
     Serial.println("Could not find AHT? Check wiring");
     while (1) delay(10);
   }
-  Serial.println("AHT10 or AHT20 found");
 }
 
-void loop() {
 
+void loop() {
   //Clear display
   display.clearDisplay();
 
@@ -59,6 +51,8 @@ void loop() {
 
   //Update the display
   display.display();
-   
-  delay(800);
-  }
+  
+  delay(2000);
+
+  resetFunc();
+}
