@@ -42,11 +42,11 @@ void loop() {
   aht.getEvent(&humidity, &temp);// populate temp and humidity objects with fresh data
 
   //Set the cursor to the top of the screen and print the temperature information on the display
-  display.setCursor(0, 0);
+  display.setCursor(0, 19);
   display.print("Temperature: "); display.print(temp.temperature); display.println(" C");
   
   //Shift the cursor downward to a new line and print the humidity information on the display
-  display.setCursor(0, 15);
+  display.setCursor(0, 34);
   display.print("Humidity: "); display.print(humidity.relative_humidity); display.println("% rH");   
 
   //Update the display
