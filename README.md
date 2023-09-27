@@ -92,6 +92,12 @@ https://github.com/EzraRC/CSC4640-Project1/blob/main/src/Project_1_Temperature_S
  <img src="https://github.com/EzraRC/CSC4640-Project1/blob/main/Images/IRL-Pictures/Without%20Lid%202.jpeg" alt="IRL without Lid 2" width="500"/>
 </p>
 
+### Completed Box with Lid
+<p float="left">
+ <img src="https://github.com/EzraRC/CSC4640-Project1/blob/main/Images/IRL-Pictures/Lid%201.jpg" alt="IRL Completed Box with Lid 1" width="418"/>
+ <img src="https://github.com/EzraRC/CSC4640-Project1/blob/main/Images/IRL-Pictures/Lid%202.jpg" alt="IRL Completed Box with Lid 2" width="500"/>
+</p>
+
 ## IRL Videos
 *youtube links*
 
