@@ -37,6 +37,18 @@ These items can be purchased through any reputable sellers, however, the links p
 | 2 | Autodesk Fusion 360  | USD 0.00* (Free for College Students) | https://www.autodesk.com/campaigns/education/fusion-360 |
 | 3 | UltiMaker Cura 5.4.0 | USD 0.00                              | https://www.ultimaker.com/software/ultimaker-cura/      |
 
+Within Arduino IDE, there are a couple of Libraries that need to be installed to get the Adafruit AHT 20 Sensor and the Adafruit Featherwing OLED add-ons to work with the Arduino Uno Rev3. The following list is all the additional libraries that need to be installed within the Arduino IDE: 
+
+- Adafruit AHTx0 by Adafruit 
+
+- Adafruit BUSIO by Adafruit 
+
+- Adafruit GFX Library by Adafruit 
+
+- Adafruit SH110X by Adafruit 
+
+- Adafruit SSD1306 by Adafruit 
+
 Most of the software listed are by preference except for Arduino IDE which is necessary to be able to upload code to the Arduino Uno Rev3 device. Autodesk Fusion 360 and UltiMaker Cura 5.4.0 were chosen because it was recommended by our professor as well as the 3D Printer available was only compatible with the UltiMaker Cura 5.4.0 software.
 
 ## Block Diagram of Device 
