@@ -111,7 +111,10 @@ https://github.com/EzraRC/CSC4640-Project1/blob/main/src/Project_1_Temperature_S
 </p>
 
 ## IRL Videos
-*youtube links*
+
+Below is a link to a timeline of the device's development, as well as clips demonstrating its functionality. In the video, you can see the entire development process, from the first version in which we used the Arduino LCD screen that came with the starter kit to upgrading to the Adafruit Featherwing OLED display, as well as when we first used battery power to make the device portable. 
+
+[Click here to see the video!](https://youtu.be/ohcKgYZ_ba4)
 
 ## Device Testing
 
