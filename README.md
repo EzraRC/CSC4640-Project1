@@ -17,6 +17,8 @@ According to Adafruit, their AHT20 Sensor’s temperature sensor ranges from -40
 Below is a list of the items we have used for this project without the 3D Printed plastic case. Due to a classroom setting, we were granted the ability to use the Arduino Starter Kit coupled with resistors and wires; below we have listed the alternative with the Arduino Uno Rev3 alone as well if you already have the wires available.
 If you do not have wires available, purchase #1 Aruindo Starter kit Multi-language and not #2 Arduino Uno Rev3, however if you already have wires, then you can purchase the #2 Arduino Uno Rev3 by itself.
 
+### Hardware Requirements
+
 | # | Hardware Item                                                                   | Price      | Link                                                                                                                                                     |
 |---|------------------------------------------------------------------------|------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1 | Arduino Starter Kit Multi-language                                     | USD 110.30 | https://store-usa.arduino.cc/products/arduino-starter-kit-multi-language                                                                                 |
@@ -31,12 +33,15 @@ If you do not have wires available, purchase #1 Aruindo Starter kit Multi-langua
 
 These items can be purchased through any reputable sellers, however, the links provided are from the direct first-party sellers. 
 
+### Software Requirements
+
 | # | Software Item                 | Price                                 | Link                                                    |
 |---|----------------------|---------------------------------------|---------------------------------------------------------|
 | 1 | Arduino IDE          | USD 0.00                              | https://www.arduino.cc/en/software                      |
 | 2 | Autodesk Fusion 360  | USD 0.00* (Free for College Students) | https://www.autodesk.com/campaigns/education/fusion-360 |
 | 3 | UltiMaker Cura 5.4.0 | USD 0.00                              | https://www.ultimaker.com/software/ultimaker-cura/      |
 
+#### Additional Requirements for Arduino IDE
 Within Arduino IDE, there are a couple of Libraries that need to be installed to get the Adafruit AHT 20 Sensor and the Adafruit Featherwing OLED add-ons to work with the Arduino Uno Rev3. The following list is all the additional libraries that need to be installed within the Arduino IDE: 
 
 - Adafruit AHTx0 by Adafruit 
