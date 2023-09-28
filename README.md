@@ -10,7 +10,7 @@ For our project, we have developed a battery powered temperature and humidity se
 
 According to Adafruit, their AHT20 Sensor’s temperature sensor ranges from -40°C to 85°C, so we planned to aim for the same range also. The accuracy of the device ranges from ± 2.0% of Relative Humidity and ± 0.3°C of Temperature. 
 
-Referencing our tests conducted below in the Device Testing and Markup section, the sensor was already calibrated to subtract – 3.0°C and 3.0% rH. This was done by altering the calculations within the Arduino IDE.
+Referencing our tests conducted below in the Device Testing and Markup section, the sensor was already calibrated to subtract – 3.0°C and add 4.0% rH. This was done by altering the calculations within the Arduino IDE.
 
  
 
