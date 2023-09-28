@@ -1,4 +1,4 @@
-# CSC4640 Project 1 - Temperature & Humidity Sensor (DRAFT)
+# CSC4640 Project 1 - Temperature & Humidity Sensor
 
 ## Project Description 
 
@@ -10,7 +10,7 @@ For our project, we have developed a battery powered temperature and humidity se
 
 According to Adafruit, their AHT20 Sensor’s temperature sensor ranges from -40°C to 85°C, so we planned to aim for the same range also. The accuracy of the device ranges from ± 2.0% of Relative Humidity and ± 0.3°C of Temperature. 
 
-Referencing our tests conducted below in the Device Testing and Markup section, the sensor was already calibrated to subtract – 3.0°C and add 6.0% rH. This was done by altering the calculations within the Arduino IDE.
+Referencing our tests conducted below in the Device Testing and Markup section, the sensor was already calibrated to subtract 2.6°C and add 4.9% rH. This was done by altering the calculations within the Arduino IDE.
 
  
 
@@ -129,33 +129,33 @@ Below is a link to a timeline of the device's development, as well as clips demo
 
 ## Device Testing
 
-For this section, we conduct tests to determine how accurate our device is compared to another reference device, the [NAME-OF-DEVICE]. According to our specifications from Adafruit, we are expected to see device ranges from ±2.0% of Relative Humidity readings and ±0.3°C of Temperature readings. 
+For this section, we conduct tests to determine how accurate our device is compared to another reference device, the Govee Wi-Fi Thermo-Hygrometer. According to our specifications from Adafruit, we are expected to see device ranges from ± 2.0% of Relative Humidity readings and ± 0.3°C of Temperature readings. 
 
  
 
 ### Temperature Testing 
 
-For this test, we have used a [NAME-OF-DEVICE] as a reference point for temperature sensing to determine the accuracy of our device. Below are comparisons between expected and received readings in Degrees Celsius. 
+For this test, we have used a Govee Wi-Fi Thermo-Hygrometer as a reference point for temperature sensing to determine the accuracy of our device. Below are comparisons between expected and received readings in Degrees Celsius. 
 
 | Reference Device Temperature (Degrees Celsius) | Adafruit AHT 20 Sensor Reading |
 |------------------------------------------------|--------------------------------|
-| -2.00                                          | -1.19                          |
-| 0.00                                           | 0.79                           |
-| 18.00                                          | 17.39                          |
-| 25.00                                          | 24.32                          |
-| 30.00                                          | 29.85                          |
+| -2.00                                          |            -1.19               |
+| 0.00                                           |             0.79               |
+| 18.00                                          |            17.39               |
+| 25.00                                          |            24.32               |
+| 30.00                                          |            29.85               |
 
 ### Humidity Testing 
 
-For this test, we have used a [NAME-OF-DEVICE] as a reference point for humidity sensing to determine the accuracy of our device. Below are comparisons between expected and received readings in percentages of Relative Humidity. 
+For this test, we have used a Govee Wi-Fi Thermo-Hygrometer as a reference point for humidity sensing to determine the accuracy of our device. Below are comparisons between expected and received readings in percentages of Relative Humidity. 
 
 | Reference Device Humidity (% rH – Percentage of Relative Humidity) | Adafruit AHT 20 Sensor Reading |
 |--------------------------------------------------------------------|--------------------------------|
-| 10.00                                                              |                                |
-| 20.00                                                              |                                |
-| 30.00                                                              |                                |
-| 40.00                                                              |                                |
-| 50.00                                                              |                                |
+| 29.43                                                              |            27.62               |
+| 33.80                                                              |            36.41               |
+| 44.80                                                              |            43.78               |
+| 53.90                                                              |            54.36               |
+| 63.80                                                              |            63.38               |
 
 
 ## Dimensions 
@@ -192,13 +192,10 @@ Below feature two tables which give the length, width, and height of the box and
 
 
 ## Conclusion 
+After working on this project for 2 weeks, we have learned a lot with regards to the 3D modelling and printing process, coding in C++, and scientific testing. The Adafruit sensor was fairly accurate after calibration and competed with the Govee Wi-Fi Thermo-Hygrometer which is a well-renowned device. 
 
-WIP
+Although the project was a success, we have noted a couple of aspects which we can improve on in the following list: 
 
- 
+- Creating grooves in the box to give the components a structured fit instead of randomly dropping them in and securing with tape. 
 
- 
-
- 
-
- 
+- Implement a switch to be able to power on the device without having to open the lid. 
