@@ -43,11 +43,11 @@ void loop() {
 
   //Set the cursor to the top of the screen and print the temperature information on the display
   display.setCursor(0, 19);
-  display.print("Temperature: "); display.print(temp.temperature - 3); display.println(" C"); //Subtracted 3 from Temperature for calibration
+  display.print("Temperature: "); display.print(temp.temperature - 2.6); display.println(" C"); //Subtracted 3 from Temperature for calibration
   
   //Shift the cursor downward to a new line and print the humidity information on the display
   display.setCursor(0, 34);
-  display.print("Humidity: "); display.print(humidity.relative_humidity + 6); display.println("% rH");   //Added 6 to Humidity for calibration
+  display.print("Humidity: "); display.print(humidity.relative_humidity + 4.9); display.println("% rH");   //Added 6 to Humidity for calibration
 
   //Update the display
   display.display();
