@@ -70,7 +70,11 @@ The Adafruit AHT20 Sensor gets the readings from the environment and inputs the 
 
 ## Schematic of the Circuit 
 
-WIP
+This schematic shows how our 9V battery is connected to our Arduino through the power adapter port. Then the AHT20 sensor gets its power from the 5V and GND ports of the Arduino. The SDA and SCL pins on the AHT20 are connected to the SDA and SCL pin holes on the Arduino. FInally, the AHT20 sensor and the OLED are connected through the ports on the sides and the connected that came with the OLED display. 
+
+<p float="left">
+ <img src="https://github.com/EzraRC/CSC4640-Project1/blob/main/Images/Diagrams/Project1_Schematic.png" alt="Box 1" width="600"/>
+</p>
 
  
 
